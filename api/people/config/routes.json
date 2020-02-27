@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/speakers",
-      "handler": "Speaker.find",
+      "path": "/people",
+      "handler": "People.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/speakers/count",
-      "handler": "Speaker.count",
+      "path": "/people/count",
+      "handler": "People.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/speakers/:id",
-      "handler": "Speaker.findOne",
+      "path": "/people/:id",
+      "handler": "People.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/speakers",
-      "handler": "Speaker.create",
+      "path": "/people",
+      "handler": "People.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/speakers/:id",
-      "handler": "Speaker.update",
+      "path": "/people/:id",
+      "handler": "People.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/speakers/:id",
-      "handler": "Speaker.delete",
+      "path": "/people/:id",
+      "handler": "People.delete",
       "config": {
         "policies": []
       }

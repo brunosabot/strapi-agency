@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "employees",
+  "collectionName": "people",
   "info": {
-    "name": "speaker",
+    "name": "people",
     "description": ""
   },
   "options": {
@@ -31,16 +31,19 @@
     "Tags": {
       "type": "string"
     },
-    "Zenika": {
+    "isZenika": {
       "type": "boolean"
     },
-    "events": {
-      "collection": "event",
-      "via": "speakers"
+    "LinkedIn": {
+      "type": "string"
     },
     "formations": {
       "collection": "formation",
       "via": "trainers"
+    },
+    "events": {
+      "collection": "event",
+      "via": "speakers"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "domains",
+  "info": {
+    "name": "domain",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "isOffer": {
+      "type": "boolean"
+    }
+  }
+}

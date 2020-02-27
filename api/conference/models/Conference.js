@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Speaker` model.
+ * Lifecycle callbacks for the `Conference` model.
  */
 
 module.exports = {

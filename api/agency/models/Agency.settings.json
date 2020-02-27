@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "agencies",
+  "info": {
+    "name": "agency",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "LinkedIn": {
+      "type": "string"
+    },
+    "Github": {
+      "type": "string"
+    },
+    "Meetup": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

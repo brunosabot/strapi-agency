@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "conferences",
+  "info": {
+    "name": "conference",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
